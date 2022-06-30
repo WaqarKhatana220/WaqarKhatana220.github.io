@@ -1,0 +1,25 @@
+#container{
+  background-color: #f8f1e9;
+  border: solid #ef7b54;
+  border-width: 4px;
+  border-radius: 14px;
+  text-align: center;
+  width: 40%;
+  height: 60vh;
+  margin: 0 auto;
+}
+#gamearea{
+  padding: 2rem 1rem;
+}
+#guess{
+  width: 30%;
+  margin: 0 auto;
+}
+body{
+  background-color: #343e63;
+}
+#newGameButton{
+  background: #83e1d0;
+  border-color: #83e1d0;
+  
+}

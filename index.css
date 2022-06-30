@@ -1,25 +1,20 @@
-#container{
-  background-color: #f8f1e9;
-  border: solid #ef7b54;
-  border-width: 4px;
-  border-radius: 14px;
-  text-align: center;
-  width: 40%;
-  height: 60vh;
-  margin: 0 auto;
+#guessTheNumber, #tipCalculator{
+    text-decoration: none;
+    
 }
-#gamearea{
-  padding: 2rem 1rem;
+
+#guessTheNumberArticle, #tipCalculatorArticle{
+    width: 25%;
+    height: 5rem;
+    background-color: #A6DD6C;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid black;
 }
-#guess{
-  width: 30%;
-  margin: 0 auto;
+h1{
+    color: black;
 }
-body{
-  background-color: #343e63;
-}
-#newGameButton{
-  background: #83e1d0;
-  border-color: #83e1d0;
-  
+#tipCalculatorArticle{
+    background-color: #F59A3D;
 }
