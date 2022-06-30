@@ -3,12 +3,15 @@
     
 }
 
+
 #guessTheNumberArticle, #tipCalculatorArticle{
+    float: left;
+    margin: 1rem;
     width: 25%;
     height: 5rem;
     background-color: #A6DD6C;
     text-align: center;
-    padding: 3rem;
+    padding: 2.5rem;
     border-radius: 1rem;
     border: 1px solid black;
 }

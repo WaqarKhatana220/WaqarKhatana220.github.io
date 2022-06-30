@@ -76,7 +76,10 @@
 
 #inputBill{
   display: inline;
-  width: 90%;
+  width: 100%;
+}
+#credits{
+  text-decoration: none;
 }
 
 
