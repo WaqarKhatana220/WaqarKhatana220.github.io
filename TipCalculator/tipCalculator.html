@@ -1,0 +1,52 @@
+<html>
+ <head>
+   <script src="tipCalculator.js"></script>
+   <link rel="stylesheet" href="tipCalculator.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+ </head>
+ <body>
+	<div id="container">
+		<h2 id="heading">Quick Tip</h2>
+		<section id="tipCalculatorPortion">
+				<label for="inputBill" id="billLable">Bill</label>
+				<input type="Number" name="inputBill" id="inputBill" class="form-control form-group">
+
+			
+			<div id="tipSliderDiv">
+				<span id="selectTip">Select Tip</span>
+				<span id="percentage"></span>
+				<span id="x"><input type="range" name="tipSlider" id="tipSlider" min="0" max="100" ></span>
+				
+			</div>
+
+			<div id="displayTip">
+				<span id="tip">Tip</span>
+				<span id="tipAmount"></span>
+			</div>
+			<hr>
+			<div id="totalDiv">
+				<span><h2 id="total">Total</h2></span>
+				<span id="totalAmount"></span>
+			</div>
+		</section>
+		<section id="splitPosrtion">
+			<div id="splitAmongDiv">
+				<span id="split">Split</span>
+				<span id="numberPeople"></span>
+				<input type="range" name="splitSlider" id="splitSlider" min="1" max="10">
+			</div>
+			<div class="billEachDiv">
+				<span id="billEach">Bill Each</span>
+				<span id="billEachAmount"></span>
+			</div>
+			<div class="tipEachDiv">
+				<span id="tipEach">Tip Each</span>
+				<span id="tipEachAmount"></span>
+			</div>
+
+		</section>
+	</div>
+  </body>
+</html>

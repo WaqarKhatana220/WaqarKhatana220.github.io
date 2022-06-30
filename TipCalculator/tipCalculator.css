@@ -1,0 +1,82 @@
+
+
+#container{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 1rem;
+
+  display: block;
+  background-color: #3dc0c0;
+  padding: 1.6rem;
+  border-radius: 2rem;
+  
+}
+#heading{
+  max-width: 200px;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+#tipCalculatorPortion{
+  background-color: white;
+  display: block;
+  padding: 1.6rem ;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+#tipSliderDiv, #splitAmongDiv{
+  padding: 1rem 0;
+}
+
+#splitPosrtion{
+  background-color: white;
+  display: block;
+  padding: 1.6rem ;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+#tipSlider, #splitSlider{
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+  margin-top: 0.2rem;
+}
+
+#tipSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 2rem;
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+#splitSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 2rem;
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#inputBill{
+  display: inline;
+  width: 90%;
+}
+
+
